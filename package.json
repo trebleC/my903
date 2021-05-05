@@ -1,0 +1,36 @@
+{
+  "name": "qq-music-api",
+  "version": "1.0.1",
+  "description": "qq music api, just for study",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "docs": "docsify serve docs -p 9611",
+    "eslint": "eslint --fix --color module/**/** routers/**/** util/**/**",
+    "prettier": "prettier --write --tab-width=2 module/**/** routers/**/** util/**/**"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "trebleC",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "moment": "^2.24.0",
+    "qs": "^6.9.4"
+  },
+  "devDependencies": {
+    "colors": "^1.3.3",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  }
+}
